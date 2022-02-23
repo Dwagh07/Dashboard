@@ -1,0 +1,41 @@
+.checkbox1{
+    background: #FFFFFF;
+    border: 1px solid #A7A7A7;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 25px;
+    height: 25px;
+    
+    };
+ .lable{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+    }
+ 
+  .technology{
+    font-family: Open Sans;
+    font-style: normal;
+   font-weight: normal;
+    font-size: 20px;
+    line-height: 100px;
+   text-decoration-line: underline;
+  }
+
+  .reset{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 100px;
+    text-decoration-line: underline;
+    
+    color: #343434;
+    
+  }
+
+  .mb-3{
+    line-height: 35px;
+  }

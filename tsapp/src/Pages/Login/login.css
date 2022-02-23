@@ -1,0 +1,196 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+  
+.container{
+  display: flex;
+  height: 100%;
+  width :100%;
+  background: #C1C1C1;
+  background-size: cover;
+ 
+}
+
+.leftdiv {
+  flex: 3 ;
+  background: #2D2D30;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  padding-top:30vh;
+  padding-left: 10vh;
+  background-size: cover;
+}
+
+ 
+ .rightdiv{
+  flex: 9;
+  display: flex;
+  background-image: url("/home/techsierra/Desktop/DeveloperDashBoard/TechsierraWebsite/src/Components/assests/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+ }  
+
+ .backgroundimg{
+   display: flex;
+   background-size: cover;
+   height: 80vh;
+   width :70vw;
+ }
+
+ 
+.formcontainer{
+  height: 30vh;
+  width:25vw;
+ 
+} 
+.techsierralogo{
+  height: 26vh;
+  width: 20vw;
+}
+.formcontainer block1 block2 block3
+{
+background: #00B3CC;
+}
+
+.whitebox{
+  display: flex;
+  height:50vh;
+  width: 22vw;
+  background: linear-gradient(180deg, #FFFFFF 65.7%, rgba(255, 255, 255, 0.38) 100%);
+  border-radius: 10.7572px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding-left: 50px;
+}
+
+.whitebox:hover{
+  border: 1px solid blue;
+}
+
+.p1{
+display: flex;
+font-family: Open Sans;
+font-style: normal;
+font-weight:lighter;
+font-size: 1.6vh;
+line-height: 10vh;
+text-align: center;
+letter-spacing: 0.392312px;
+text-transform: uppercase;
+color: #00B3CC;
+padding-left:8vh;
+}
+
+.p2{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #252733;
+}
+
+.emailbox{
+display: flex;
+background: #FFFFFF;
+border: 0.1vh solid #A7A7A7;
+border-radius: 7px;
+padding-left: 30px;
+}
+
+#email{
+  height: 2vh;
+}
+
+.passwordbox{
+background: #FFFFFF;
+border: 0.1h solid #A7A7A7;
+border-radius: 7px;
+padding-left: 30px;
+}
+
+#password{
+  height: 2vh;
+}
+.loginbutton{
+  
+background: #00B3CC;
+box-shadow: 0px 5px 15px rgba(0, 179, 204, 0.5);
+border-radius: 10.7572px;
+height:4vh;
+width:17vw;
+padding-left: 30px;
+
+}
+.loginbutton:hover{
+  border: 1px solid blue;
+}
+
+.forgetpassword
+{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.5px;
+color: #626264;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input{
+  border: unset;
+}
+@media only screen and (max-width:780px) {
+  .container{
+    height: 600px;
+    flex-direction: column;
+  }
+ 
+  .leftdiv{
+    padding: 10px;
+    height:150px;
+    width:500px;
+    padding-left: 183px;
+    
+  }
+   
+   .techsierralogo{
+    height: 157px;
+    width: 179px;
+    
+   }
+    .whitebox{
+
+        padding-top: 20px;     
+        height:450px;
+        width: 300px;
+        background: white;  
+    }
+   .rightdiv{
+     width:600px;
+     height:700px;
+   }
+}
