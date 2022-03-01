@@ -11,9 +11,8 @@
   }
   .Dropdown {
     width: 200px;
-    height: 100px;
+    height: 100px;  
     left: 1700px;
     top: 50px;
-    background: #FFFFFF;
     border-radius: 10px;
   }
