@@ -43,7 +43,8 @@
     font-size: 20px;
      color: #FFFFFF;
      padding-left: 60px;
-     padding-bottom: 100px;   
+     padding-bottom: 100px; 
+  
 }
 
 .cardpic {
@@ -70,7 +71,8 @@
     margin-left:40px;
 }
 .language {
-    padding-left: 130px;
+    padding-left: 165px;
+    padding-top:10px;
      width: 38px;
     height: 27px;
     font-family: Open Sans;
@@ -94,7 +96,7 @@
 
 .experience {
     position:relative;
-    top:0;
+    top:10px;
    font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -119,8 +121,8 @@
 
 }
 .years {
-   
-    top:0px;
+    position:relative;
+    top:20px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;

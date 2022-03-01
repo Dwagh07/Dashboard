@@ -17,7 +17,7 @@
 }
 
 .leftdiv {
-  flex: 3 ;
+  flex: 4 ;
   background: #2D2D30;
   justify-content: center;
   height: 100vh;
@@ -29,16 +29,16 @@
 
  
  .rightdiv{
-  flex: 9;
+  flex: 8;
   display: flex;
-  background-image: url("/home/techsierra/Desktop/DeveloperDashBoard/TechsierraWebsite/src/Components/assests/background.png");
+  background-image: url("C:\Users\Tech Sierra\Desktop\Tech Sierra\developers-dashboard\tsapp\src\Components\assests\background.png");
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  
+ 
  }  
 
  .backgroundimg{
@@ -48,149 +48,217 @@
    width :70vw;
  }
 
- 
-.formcontainer{
-  height: 30vh;
-  width:25vw;
- 
-} 
+
 .techsierralogo{
-  height: 26vh;
-  width: 20vw;
-}
-.formcontainer block1 block2 block3
-{
-background: #00B3CC;
+  height: 20vh;
+  width: 18vw;
+  margin-left:100px;
+  margin-top:120px;
 }
 
-.whitebox{
-  display: flex;
-  height:50vh;
-  width: 22vw;
+.block1 {
+  position: absolute;
+  width: 44.96px;
+  height: 31.68px;
+  left:1450px;
+  top: 270px;
+  
+  background: rgba(0, 179, 204, 0.5);
+}
+
+.block2 {
+  position: absolute;
+  width: 44.96px;
+  height: 31.68px;
+  left: 1510px;
+  top: 270px;
+  
+  background: rgba(0, 179, 204, 0.5);
+}
+.block3 {
+  position: absolute;
+  width: 44.96px;
+  height: 31.68px;
+  left: 1570px;
+  top: 270px;
+  
+  background: rgba(0, 179, 204, 0.5);
+}
+.whitebox {
+  position: absolute;
+  left: 1450px;
+  right: 318px;
+  top: 300px;
+  bottom: 187.62px;
+  width:580px;
+  height:750px;
   background: linear-gradient(180deg, #FFFFFF 65.7%, rgba(255, 255, 255, 0.38) 100%);
-  border-radius: 10.7572px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  padding-left: 50px;
+  border-radius: 10.7572px;
+  
 }
 
-.whitebox:hover{
-  border: 1px solid blue;
-}
-
-.p1{
-display: flex;
+.p1 {
+  position: absolute;
+left:160px;
+top:20px;
 font-family: Open Sans;
 font-style: normal;
-font-weight:lighter;
-font-size: 1.6vh;
-line-height: 10vh;
+font-weight: normal;
+font-size: 20.0458px;
+line-height: 27px;
 text-align: center;
 letter-spacing: 0.392312px;
 text-transform: uppercase;
 color: #00B3CC;
-padding-left:8vh;
+
 }
 
-.p2{
+.p2 {
+  position:absolute;
+  top:210px;
+  left:238px;
   font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 41px;
-text-align: center;
-letter-spacing: 0.5px;
-color: #252733;
-}
-
-.emailbox{
-display: flex;
-background: #FFFFFF;
-border: 0.1vh solid #A7A7A7;
-border-radius: 7px;
-padding-left: 30px;
-}
-
-#email{
-  height: 2vh;
-}
-
-.passwordbox{
-background: #FFFFFF;
-border: 0.1h solid #A7A7A7;
-border-radius: 7px;
-padding-left: 30px;
-}
-
-#password{
-  height: 2vh;
-}
-.loginbutton{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #252733;
   
-background: #00B3CC;
-box-shadow: 0px 5px 15px rgba(0, 179, 204, 0.5);
-border-radius: 10.7572px;
-height:4vh;
-width:17vw;
-padding-left: 30px;
-
-}
-.loginbutton:hover{
-  border: 1px solid blue;
 }
 
-.forgetpassword
-{
-font-family: Open Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 20px;
-text-align: right;
+
+.legend1 {
+  position: absolute;
+  left: 10px;
+  right: 0px;
+  bottom:50px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+ font-size: 20px;
 letter-spacing: 0.5px;
-color: #626264;
+text-transform: uppercase;
+
+color: #A7A7A7;
 }
 
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.emailbox {
+ position:absolute;
+  top:380px;
+  left:60px;
+  width:460px;
+  height:50px;
+  background: #FFFFFF;
+  border: 1.5px solid #A7A7A7;
   box-sizing: border-box;
+  border-radius: 7px;
 }
 
-input{
-  border: unset;
+.inputemail {
+  position: absolute;
+  width:460px;
+  height:50px;
+  background: #FFFFFF;
+  border: 1.5px solid #A7A7A7;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-size:20px;
 }
-@media only screen and (max-width:780px) {
-  .container{
-    height: 600px;
-    flex-direction: column;
-  }
+
+.requiredemail {
+  position: absolute;
+  width:460px;
+  height:50px;
+  top:55px;
+  bottom:10px;
+  color:red;
  
-  .leftdiv{
-    padding: 10px;
-    height:150px;
-    width:500px;
-    padding-left: 183px;
-    
-  }
-   
-   .techsierralogo{
-    height: 157px;
-    width: 179px;
-    
-   }
-    .whitebox{
-
-        padding-top: 20px;     
-        height:450px;
-        width: 300px;
-        background: white;  
-    }
-   .rightdiv{
-     width:600px;
-     height:700px;
-   }
 }
+
+.legend2 {
+  position: absolute;
+  left: 10px;
+  right: 0px;
+  
+  bottom:50px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+ font-size: 20px;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+color: #A7A7A7;
+}
+
+
+.passwordbox {
+   
+  position: absolute;
+  top:480px;
+  left:60px;
+  width:460px;
+  height:50px;
+  background: #FFFFFF;
+  border: 1.5px solid #A7A7A7;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.inputpassword {
+  position: absolute;
+  width:460px;
+  height:50px;
+  background: #FFFFFF;
+  border: 1.5px solid #A7A7A7;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-size:20px;
+}
+
+.requiredpassword {
+  position: absolute;
+  width:460px;
+  height:50px;
+  top:55px;
+  bottom:10px;
+  color:red;
+}
+
+.forgetpassword {
+  position: absolute;
+  top: 540px;
+  left:380px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  
+  color: #626264;
+  
+}
+
+.loginbutton {
+  position: absolute;
+  top:600px;
+  width:460px;
+  height:50px;
+  left:60px;
+  color:#FFFFFF;
+  background: #00B3CC;
+  box-shadow: 0px 5px 15px rgba(0, 179, 204, 0.5);
+  border-radius: 10.7572px;
+}  
+
+
+
+
+
+  
