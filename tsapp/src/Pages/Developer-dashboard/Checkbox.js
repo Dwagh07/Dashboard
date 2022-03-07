@@ -6,8 +6,9 @@ const languages =[
     {id:3,name:"Appium"},  {id:4,name:"ASP.NET"},   {id:5,name:".NET Core"},
     {id:6,name:"AWS"},  {id:7,name:"Bootstrap"},    {id:8,name:"C#"},
     {id:9,name:"c++"},  {id:10,name:"java"},    {id:11,name:"Cassandra"},
-    {id:11,name:"Other"}
+    {id:12,name:"Other"}
 ];
+
 
 const Check =() =>{
     const [users,setUsers] = useState([])
@@ -36,23 +37,23 @@ const handleChange =  (change) =>{
    return(
         <>
         <h1 className="technology" >TECHNOLOGIES</h1>
-           
+           <hr className="hr"/>
         <div className="mb-3">
         <input type="checkbox" 
         className="checkbox1" 
         name="allSelect" 
-        checked={users.filter((user) => user?.isChecked !== true).lenght <1}
+        checked={users.filter((user) => user?.isChecked !== true).length <= 0}
         onChange={handleChange} />
        <label className="lable">All</label>
       </div>
       {
-         users.map((user)=>(
+         users.map((users)=>(
           <div className="mb-3" >
         <input  type="checkbox" className="checkbox1" 
-        name={user.name}
-        checked={user?.isChecked || false}
+        name={users.name}
+        checked={users?.isChecked || false}
         onChange={handleChange} />
-       <label className="lable" >{user.name}</label>
+       <label className="lable" >{users.name}</label>
     </div>))}
     <p  className="reset">Reset the filter</p>
     </>

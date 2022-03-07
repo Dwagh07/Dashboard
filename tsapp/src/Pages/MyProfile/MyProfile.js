@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import '../Developer-dashboard/dashboard.css';
 import Sidebar from '../Developer-dashboard/Sidebar';
 import image from '../../Components/assests/profile image.png'
@@ -6,10 +6,13 @@ import './Myprofile.css';
 
 function MyProfile () {
   
+ 
+  
+
     return (
      
         <div className='profile_container'>
-        <div className='container1'>
+         <div className='container1'>
            <Sidebar/>
         </div>
         <div className='profile'>

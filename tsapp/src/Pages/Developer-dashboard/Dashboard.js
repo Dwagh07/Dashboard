@@ -3,14 +3,13 @@ import Cards from '../Cards/Cards'
 import Checkbox from './Checkbox';
 import Sidebar from './Sidebar';
 import Dropdown from './Dropdown';
-
-import Cardcompnents from '../Cards/Cardcomponents'
-import MyProfile from '../MyProfile/MyProfile'
-import {Link} from 'react-router-dom'
-
+import Cardcompnents from '../Cards/Cardcomponents';
+// import MyProfile from '../MyProfile/MyProfile'
+// import PaginatedItems from './Pagination'
 
 
-function createCards (val){
+
+function createCards (val,key ){
   return( 
   <Cards
   key={val.id}
@@ -30,7 +29,9 @@ const ListCards = () => {
 }
 
 function Dashboard  (props) {
+  console.log(props)
     return (
+      
      <>
       <div className='main_container'>
         <div className='container1'>
@@ -46,7 +47,6 @@ function Dashboard  (props) {
          <div>
            <Dropdown/>
          </div>
-          
         </div>
         </div>
 

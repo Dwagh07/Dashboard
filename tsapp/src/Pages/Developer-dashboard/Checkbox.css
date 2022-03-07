@@ -10,7 +10,7 @@
  .lable{
     font-family: Open Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     line-height: 45px;
     }
@@ -18,10 +18,21 @@
   .technology{
     font-family: Open Sans;
     font-style: normal;
-   font-weight: normal;
+   font-weight: bold;
     font-size: 20px;
     line-height: 100px;
-   text-decoration-line: underline;
+  
+  }
+
+  .hr {
+    position:absolute;
+   
+    width: 146.23px;
+    height: 0px;
+    left: 620px;
+    top: 280px;
+    
+    border: 0.906791px solid #A7A7A7;
   }
 
   .reset{

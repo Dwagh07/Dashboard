@@ -1,8 +1,11 @@
-.Dropdownh1 {
+
+
+ .Dropdownh1 {
+   position:absolute;
     width: 30px;
     height: 30px;
-    left: 1700px;
-    top: 40px;
+    left: 2245px;
+    top: 43px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -14,5 +17,21 @@
     height: 100px;  
     left: 1700px;
     top: 50px;
+   position:absolute;
+    left: 2300px;
+    top: 70px;
+
     border-radius: 10px;
+  } 
+
+  .optionall {
+     position:absolute;
+     height:30px;
+     width:140px;
+     left:30px;
+     bottom:0px;
+     background: #FFFFFF;
+     border-radius: 7px;
+     border-color:transparent;
+     font-size:15px;
   }

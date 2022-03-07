@@ -17,7 +17,7 @@ const Form = props => {
     function login() {
         setLoggedIn(true);
         props.parentCallback(true);
-        return <Redirect to="/default" />;
+        return <Redirect to="/" />;
       }
         
     return (
@@ -30,27 +30,26 @@ const Form = props => {
         <div className='rightdiv'>
             
             {/*<img className='backgroundimg' src={background}/>*/}
-            <div className='formcontainer'>
+         
                 <div className='block1'></div>
                 <div className='block2'></div>
                 <div className='block3'></div>
-            </div>
+           
             
              {/* <form onSubmit= {handleSubmit}> */}
              <div className='whitebox'>
              <form className='form' onSubmit= {handleSubmit} noValidate>
-                 <p className='p1'> EMPLOYEE DASHBOARD</p>
+                 <p className='p1'> EMPLOYEE DASHBOARD </p>
                  <p className='p2'> Sign In </p>
-                 <div className='emaildiv'>
+               
                  <fieldset  className='emailbox' >
-                <legend>EMAIL</legend>
+                <legend className='legend1'>EMAIL</legend>
                <input 
                autoComplete="on"
                className={`inputemail ${errors.email && "is-danger"}`}   
                type="email"  
                name="email"
                id="email" 
-               placeholder='abc.xyz@techsierra.in'
                onChange={handleChange}
                value={values.email || ""}  
                required 
@@ -60,10 +59,10 @@ const Form = props => {
                   )}
                   
                </fieldset>
-               </div>
+              
                <br/><br/>
                <fieldset  className='passwordbox'>
-                <legend>PASSWORD</legend>
+                <legend className='legend2'>PASSWORD</legend>
                <input 
                autoComplete="off"
                className={`inputpassword ${errors.password && "is-danger"}`}  
@@ -80,8 +79,9 @@ const Form = props => {
              <img className='hidelogo'  src={hide} />
                </fieldset>
                <a className='forgetpassword' href="#"> Forget password?</a>.
-               <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-              <button type="onSubmit" className='loginbutton'>Log IN
+               
+              <button type="onSubmit" className='loginbutton'>
+                Log In
                 </button>
                </form>
            </div>

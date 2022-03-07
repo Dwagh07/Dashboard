@@ -7,14 +7,15 @@ export default function validate(values) {
     }
     if (!values.password) {
       errors.password = "Password is required";
-    } else if (values.password.length < 8) {
-      errors.password = "Password must be 8 or more characters";
-    } else if (!/\d/.test(values.password)) {
-      errors.password = "Password must contain atleast 1 number";
-    } else if (!/[A-Z]/g.test(values.password)) {
-      errors.password = "Password must contain atleast 1 capital letter";
-    }
+    } else if (values.password.length < 0) {
+      errors.password = "Password must be 8 or more characters";}
+    //  else if (!/\d/.test(values.password)) {
+    //   errors.password = "Password must contain atleast 1 number";
+    // } else if (!/[A-Z]/g.test(values.password)) {
+    //   errors.password = "Password must contain atleast 1 capital letter";
+    // }
     return errors;
   } 
+
 
   
